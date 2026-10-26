@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# never commit the papers or overlays that reproduce their figures
+*.pdf
+overlay*.png
+*_overlay*.png
+# derived from figures of a copyrighted paper: generate locally, do not publish (see data/README.md)
+data/patra_digitized.json
+data/gong_fig13a.json
+data/gong_fig13b.json
+data/gong_fig14b_digitized.json
+data/gong_thesis_fig721.json
+data/xiao_rfic2025_fig7.json
+data/peng_rfit2024_fig6.json
+figures/patra_fit.png
+figures/fit_sensitivity.png
+# figures/pll_three_cases.png and pll_sensitivity.png show model predictions only and are kept

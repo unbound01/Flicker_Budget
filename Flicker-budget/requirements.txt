@@ -1,0 +1,5 @@
+numpy>=1.22   # src/pll.py uses np.trapezoid when available (NumPy 2.x), np.trapz otherwise
+scipy
+matplotlib
+opencv-python   # only needed for scripts/digitize_patra_figs.py (which also needs poppler's pdftoppm)
+pytest          # tests: python -m pytest -q
